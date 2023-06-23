@@ -1,0 +1,23 @@
+{
+    "name": "database/crud",
+    "description": "A simnple library for managing connections, result pagination and building queries in PHP",
+    "type": "library",
+
+    "author":[
+        {
+        "name": "Marcelo Garcia"
+
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+
+
+    "required":{
+        "php" : ">=7.0"
+    }
+}
